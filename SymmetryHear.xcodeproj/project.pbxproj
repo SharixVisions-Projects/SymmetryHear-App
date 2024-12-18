@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409EFE492C88408000F82608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE482C88408000F82608 /* AppDelegate.swift */; };
+		409EFE4B2C88408000F82608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE4A2C88408000F82608 /* SceneDelegate.swift */; };
+		409EFE4D2C88408000F82608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE4C2C88408000F82608 /* ViewController.swift */; };
+		409EFE502C88408000F82608 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 409EFE4F2C88408000F82608 /* Base */; };
+		409EFE522C88408300F82608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409EFE512C88408300F82608 /* Assets.xcassets */; };
+		409EFE552C88408300F82608 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 409EFE542C88408300F82608 /* Base */; };
+		409EFE5E2C88466C00F82608 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE5D2C88466C00F82608 /* Helper.swift */; };
+		409EFE612C88494B00F82608 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE602C88494B00F82608 /* HomeViewController.swift */; };
+		409EFE642C88496D00F82608 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE632C88496D00F82608 /* HomeCollectionViewCell.swift */; };
+		409EFE672C8863AA00F82608 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE662C8863AA00F82608 /* WelcomeViewController.swift */; };
+		409EFE6A2C88689600F82608 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE692C88689600F82608 /* HistoryViewController.swift */; };
+		409EFE6C2C8868AA00F82608 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE6B2C8868AA00F82608 /* HistoryTableViewCell.swift */; };
+		409EFE6F2C8876CE00F82608 /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE6E2C8876CE00F82608 /* FrequencyViewController.swift */; };
+		409EFE722C88802E00F82608 /* SoundGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EFE712C88802E00F82608 /* SoundGenerator.swift */; };
+		40BAA0422C92E9950009BB79 /* ExportOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BAA0412C92E9950009BB79 /* ExportOptionsViewController.swift */; };
+		40C2649D2C8ED52600CABCE0 /* HearingExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2649C2C8ED52600CABCE0 /* HearingExercisesViewController.swift */; };
+		40C264BF2C8EE23E00CABCE0 /* SoundsSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C264BE2C8EE23E00CABCE0 /* SoundsSampleViewController.swift */; };
+		40C264C12C8EE25F00CABCE0 /* SoundsSampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C264C02C8EE25F00CABCE0 /* SoundsSampleTableViewCell.swift */; };
+		40C264E22C8F067000CABCE0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C264E12C8F067000CABCE0 /* SettingsViewController.swift */; };
+		40C264E42C8F068800CABCE0 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C264E32C8F068800CABCE0 /* SettingsTableViewCell.swift */; };
+		40C264E62C8F0A2B00CABCE0 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C264E52C8F0A2B00CABCE0 /* AboutUSViewController.swift */; };
+		40C264E82C8F0A3300CABCE0 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C264E72C8F0A3300CABCE0 /* FeedbackViewController.swift */; };
+		40C75CD72C931DA900406983 /* DetailProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C75CD62C931DA900406983 /* DetailProfileViewController.swift */; };
+		40C9ADA42C9079640026B562 /* frequency3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9AD9E2C9079630026B562 /* frequency3.mp3 */; };
+		40C9ADA52C9079640026B562 /* frequency2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9AD9F2C9079630026B562 /* frequency2.mp3 */; };
+		40C9ADA62C9079640026B562 /* frequency1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADA02C9079630026B562 /* frequency1.mp3 */; };
+		40C9ADA72C9079640026B562 /* frequency5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADA12C9079640026B562 /* frequency5.mp3 */; };
+		40C9ADA82C9079640026B562 /* frequency6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADA22C9079640026B562 /* frequency6.mp3 */; };
+		40C9ADA92C9079640026B562 /* frequnecy4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADA32C9079640026B562 /* frequnecy4.mp3 */; };
+		40C9ADB02C9079790026B562 /* frequency10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADAA2C9079780026B562 /* frequency10.mp3 */; };
+		40C9ADB12C9079790026B562 /* frequency9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADAB2C9079780026B562 /* frequency9.mp3 */; };
+		40C9ADB22C9079790026B562 /* frequency8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADAC2C9079790026B562 /* frequency8.mp3 */; };
+		40C9ADB32C9079790026B562 /* frequency7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADAD2C9079790026B562 /* frequency7.mp3 */; };
+		40C9ADB42C9079790026B562 /* frequency11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADAE2C9079790026B562 /* frequency11.mp3 */; };
+		40C9ADB52C9079790026B562 /* frequency12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADAF2C9079790026B562 /* frequency12.mp3 */; };
+		40C9ADBC2C90798B0026B562 /* frequency13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADB62C90798B0026B562 /* frequency13.mp3 */; };
+		40C9ADBD2C90798B0026B562 /* frequency16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADB72C90798B0026B562 /* frequency16.mp3 */; };
+		40C9ADBE2C90798B0026B562 /* frequency15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADB82C90798B0026B562 /* frequency15.mp3 */; };
+		40C9ADBF2C90798B0026B562 /* frequency17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADB92C90798B0026B562 /* frequency17.mp3 */; };
+		40C9ADC02C90798B0026B562 /* frequency18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADBA2C90798B0026B562 /* frequency18.mp3 */; };
+		40C9ADC12C90798B0026B562 /* frequency14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADBB2C90798B0026B562 /* frequency14.mp3 */; };
+		40C9ADC42C9079940026B562 /* frequency19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADC22C9079940026B562 /* frequency19.mp3 */; };
+		40C9ADC52C9079940026B562 /* frequency20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9ADC32C9079940026B562 /* frequency20.mp3 */; };
+		40C9ADC82C907B240026B562 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9ADC72C907B240026B562 /* CreateProfileViewController.swift */; };
+		40C9ADCB2C9087C30026B562 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9ADCA2C9087C30026B562 /* iOSDropDown.swift */; };
+		40F83F252C91862700314F61 /* HearingProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F83F242C91862700314F61 /* HearingProfilesViewController.swift */; };
+		40F83F272C91863800314F61 /* HearingProfilesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F83F262C91863800314F61 /* HearingProfilesTableViewCell.swift */; };
+		40F83F2A2C91DC2300314F61 /* LearningCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F83F292C91DC2300314F61 /* LearningCenterViewController.swift */; };
+		40F83F2C2C91DC3300314F61 /* LearningCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F83F2B2C91DC3300314F61 /* LearningCenterTableViewCell.swift */; };
+		419FEECCB693CEA01018F56A /* Pods_SymmetryHear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149A71B3E34B28B5AAFBD171 /* Pods_SymmetryHear.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149A71B3E34B28B5AAFBD171 /* Pods_SymmetryHear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SymmetryHear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409EFE452C88408000F82608 /* SymmetryHear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymmetryHear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409EFE482C88408000F82608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409EFE4A2C88408000F82608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		409EFE4C2C88408000F82608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		409EFE4F2C88408000F82608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409EFE512C88408300F82608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409EFE542C88408300F82608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409EFE562C88408300F82608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409EFE5D2C88466C00F82608 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		409EFE602C88494B00F82608 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		409EFE632C88496D00F82608 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		409EFE662C8863AA00F82608 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		409EFE692C88689600F82608 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		409EFE6B2C8868AA00F82608 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		409EFE6E2C8876CE00F82608 /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
+		409EFE712C88802E00F82608 /* SoundGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundGenerator.swift; sourceTree = "<group>"; };
+		40BAA0412C92E9950009BB79 /* ExportOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOptionsViewController.swift; sourceTree = "<group>"; };
+		40C2649C2C8ED52600CABCE0 /* HearingExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingExercisesViewController.swift; sourceTree = "<group>"; };
+		40C264BE2C8EE23E00CABCE0 /* SoundsSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsSampleViewController.swift; sourceTree = "<group>"; };
+		40C264C02C8EE25F00CABCE0 /* SoundsSampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsSampleTableViewCell.swift; sourceTree = "<group>"; };
+		40C264E12C8F067000CABCE0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		40C264E32C8F068800CABCE0 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		40C264E52C8F0A2B00CABCE0 /* AboutUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
+		40C264E72C8F0A3300CABCE0 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		40C75CD62C931DA900406983 /* DetailProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProfileViewController.swift; sourceTree = "<group>"; };
+		40C9AD9E2C9079630026B562 /* frequency3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency3.mp3; sourceTree = "<group>"; };
+		40C9AD9F2C9079630026B562 /* frequency2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency2.mp3; sourceTree = "<group>"; };
+		40C9ADA02C9079630026B562 /* frequency1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency1.mp3; sourceTree = "<group>"; };
+		40C9ADA12C9079640026B562 /* frequency5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency5.mp3; sourceTree = "<group>"; };
+		40C9ADA22C9079640026B562 /* frequency6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency6.mp3; sourceTree = "<group>"; };
+		40C9ADA32C9079640026B562 /* frequnecy4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequnecy4.mp3; sourceTree = "<group>"; };
+		40C9ADAA2C9079780026B562 /* frequency10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency10.mp3; sourceTree = "<group>"; };
+		40C9ADAB2C9079780026B562 /* frequency9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency9.mp3; sourceTree = "<group>"; };
+		40C9ADAC2C9079790026B562 /* frequency8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency8.mp3; sourceTree = "<group>"; };
+		40C9ADAD2C9079790026B562 /* frequency7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency7.mp3; sourceTree = "<group>"; };
+		40C9ADAE2C9079790026B562 /* frequency11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency11.mp3; sourceTree = "<group>"; };
+		40C9ADAF2C9079790026B562 /* frequency12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency12.mp3; sourceTree = "<group>"; };
+		40C9ADB62C90798B0026B562 /* frequency13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency13.mp3; sourceTree = "<group>"; };
+		40C9ADB72C90798B0026B562 /* frequency16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency16.mp3; sourceTree = "<group>"; };
+		40C9ADB82C90798B0026B562 /* frequency15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency15.mp3; sourceTree = "<group>"; };
+		40C9ADB92C90798B0026B562 /* frequency17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency17.mp3; sourceTree = "<group>"; };
+		40C9ADBA2C90798B0026B562 /* frequency18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency18.mp3; sourceTree = "<group>"; };
+		40C9ADBB2C90798B0026B562 /* frequency14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency14.mp3; sourceTree = "<group>"; };
+		40C9ADC22C9079940026B562 /* frequency19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency19.mp3; sourceTree = "<group>"; };
+		40C9ADC32C9079940026B562 /* frequency20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frequency20.mp3; sourceTree = "<group>"; };
+		40C9ADC72C907B240026B562 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		40C9ADCA2C9087C30026B562 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		40F83F242C91862700314F61 /* HearingProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingProfilesViewController.swift; sourceTree = "<group>"; };
+		40F83F262C91863800314F61 /* HearingProfilesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingProfilesTableViewCell.swift; sourceTree = "<group>"; };
+		40F83F292C91DC2300314F61 /* LearningCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCenterViewController.swift; sourceTree = "<group>"; };
+		40F83F2B2C91DC3300314F61 /* LearningCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCenterTableViewCell.swift; sourceTree = "<group>"; };
+		50E1DC5E2F1A7903935816A3 /* Pods-SymmetryHear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymmetryHear.debug.xcconfig"; path = "Target Support Files/Pods-SymmetryHear/Pods-SymmetryHear.debug.xcconfig"; sourceTree = "<group>"; };
+		9902A3A0A8901883A27AB2E7 /* Pods-SymmetryHear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymmetryHear.release.xcconfig"; path = "Target Support Files/Pods-SymmetryHear/Pods-SymmetryHear.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409EFE422C88408000F82608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419FEECCB693CEA01018F56A /* Pods_SymmetryHear.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409EFE3C2C88408000F82608 = {
+			isa = PBXGroup;
+			children = (
+				409EFE472C88408000F82608 /* SymmetryHear */,
+				409EFE462C88408000F82608 /* Products */,
+				A12078DAECCF21B97F03BCB4 /* Pods */,
+				A8E10B14DAA1AE6570DBD62D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		409EFE462C88408000F82608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE452C88408000F82608 /* SymmetryHear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409EFE472C88408000F82608 /* SymmetryHear */ = {
+			isa = PBXGroup;
+			children = (
+				40C75CD52C931D8600406983 /* DetailProfile */,
+				40BAA0402C92E96C0009BB79 /* DataExport */,
+				40F83F282C91DBE600314F61 /* LearningCenter */,
+				40F83F232C91860200314F61 /* HearingProfiles */,
+				40C9ADC92C9087A40026B562 /* IOSDropDown */,
+				40C9ADC62C907AE70026B562 /* Profiles */,
+				40C264E02C8F064B00CABCE0 /* Settings */,
+				40C264BD2C8EE1DF00CABCE0 /* SoundsampleVC */,
+				40C2649E2C8EDF8B00CABCE0 /* SoundsSample */,
+				40C2649B2C8ED4E800CABCE0 /* HearingExercises */,
+				409EFE702C887FFB00F82608 /* Soundgenerator */,
+				409EFE6D2C8876A400F82608 /* FrequencyVC */,
+				409EFE682C88687400F82608 /* HistoryVC */,
+				409EFE652C88638D00F82608 /* WelcomeVC */,
+				409EFE5F2C88493500F82608 /* HomeVC */,
+				409EFE5C2C88465D00F82608 /* Helper */,
+				409EFE482C88408000F82608 /* AppDelegate.swift */,
+				409EFE4A2C88408000F82608 /* SceneDelegate.swift */,
+				409EFE4C2C88408000F82608 /* ViewController.swift */,
+				409EFE4E2C88408000F82608 /* Main.storyboard */,
+				409EFE512C88408300F82608 /* Assets.xcassets */,
+				409EFE532C88408300F82608 /* LaunchScreen.storyboard */,
+				409EFE562C88408300F82608 /* Info.plist */,
+			);
+			path = SymmetryHear;
+			sourceTree = "<group>";
+		};
+		409EFE5C2C88465D00F82608 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE5D2C88466C00F82608 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		409EFE5F2C88493500F82608 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE602C88494B00F82608 /* HomeViewController.swift */,
+				409EFE632C88496D00F82608 /* HomeCollectionViewCell.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		409EFE652C88638D00F82608 /* WelcomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE662C8863AA00F82608 /* WelcomeViewController.swift */,
+			);
+			path = WelcomeVC;
+			sourceTree = "<group>";
+		};
+		409EFE682C88687400F82608 /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE692C88689600F82608 /* HistoryViewController.swift */,
+				409EFE6B2C8868AA00F82608 /* HistoryTableViewCell.swift */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		409EFE6D2C8876A400F82608 /* FrequencyVC */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE6E2C8876CE00F82608 /* FrequencyViewController.swift */,
+			);
+			path = FrequencyVC;
+			sourceTree = "<group>";
+		};
+		409EFE702C887FFB00F82608 /* Soundgenerator */ = {
+			isa = PBXGroup;
+			children = (
+				409EFE712C88802E00F82608 /* SoundGenerator.swift */,
+			);
+			path = Soundgenerator;
+			sourceTree = "<group>";
+		};
+		40BAA0402C92E96C0009BB79 /* DataExport */ = {
+			isa = PBXGroup;
+			children = (
+				40BAA0412C92E9950009BB79 /* ExportOptionsViewController.swift */,
+			);
+			path = DataExport;
+			sourceTree = "<group>";
+		};
+		40C2649B2C8ED4E800CABCE0 /* HearingExercises */ = {
+			isa = PBXGroup;
+			children = (
+				40C2649C2C8ED52600CABCE0 /* HearingExercisesViewController.swift */,
+			);
+			path = HearingExercises;
+			sourceTree = "<group>";
+		};
+		40C2649E2C8EDF8B00CABCE0 /* SoundsSample */ = {
+			isa = PBXGroup;
+			children = (
+				40C9ADC22C9079940026B562 /* frequency19.mp3 */,
+				40C9ADC32C9079940026B562 /* frequency20.mp3 */,
+				40C9ADB62C90798B0026B562 /* frequency13.mp3 */,
+				40C9ADBB2C90798B0026B562 /* frequency14.mp3 */,
+				40C9ADB82C90798B0026B562 /* frequency15.mp3 */,
+				40C9ADB72C90798B0026B562 /* frequency16.mp3 */,
+				40C9ADB92C90798B0026B562 /* frequency17.mp3 */,
+				40C9ADBA2C90798B0026B562 /* frequency18.mp3 */,
+				40C9ADAD2C9079790026B562 /* frequency7.mp3 */,
+				40C9ADAC2C9079790026B562 /* frequency8.mp3 */,
+				40C9ADAB2C9079780026B562 /* frequency9.mp3 */,
+				40C9ADAA2C9079780026B562 /* frequency10.mp3 */,
+				40C9ADAE2C9079790026B562 /* frequency11.mp3 */,
+				40C9ADAF2C9079790026B562 /* frequency12.mp3 */,
+				40C9ADA02C9079630026B562 /* frequency1.mp3 */,
+				40C9AD9F2C9079630026B562 /* frequency2.mp3 */,
+				40C9AD9E2C9079630026B562 /* frequency3.mp3 */,
+				40C9ADA12C9079640026B562 /* frequency5.mp3 */,
+				40C9ADA22C9079640026B562 /* frequency6.mp3 */,
+				40C9ADA32C9079640026B562 /* frequnecy4.mp3 */,
+			);
+			path = SoundsSample;
+			sourceTree = "<group>";
+		};
+		40C264BD2C8EE1DF00CABCE0 /* SoundsampleVC */ = {
+			isa = PBXGroup;
+			children = (
+				40C264BE2C8EE23E00CABCE0 /* SoundsSampleViewController.swift */,
+				40C264C02C8EE25F00CABCE0 /* SoundsSampleTableViewCell.swift */,
+			);
+			path = SoundsampleVC;
+			sourceTree = "<group>";
+		};
+		40C264E02C8F064B00CABCE0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				40C264E72C8F0A3300CABCE0 /* FeedbackViewController.swift */,
+				40C264E52C8F0A2B00CABCE0 /* AboutUSViewController.swift */,
+				40C264E12C8F067000CABCE0 /* SettingsViewController.swift */,
+				40C264E32C8F068800CABCE0 /* SettingsTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		40C75CD52C931D8600406983 /* DetailProfile */ = {
+			isa = PBXGroup;
+			children = (
+				40C75CD62C931DA900406983 /* DetailProfileViewController.swift */,
+			);
+			path = DetailProfile;
+			sourceTree = "<group>";
+		};
+		40C9ADC62C907AE70026B562 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				40C9ADC72C907B240026B562 /* CreateProfileViewController.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		40C9ADC92C9087A40026B562 /* IOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				40C9ADCA2C9087C30026B562 /* iOSDropDown.swift */,
+			);
+			path = IOSDropDown;
+			sourceTree = "<group>";
+		};
+		40F83F232C91860200314F61 /* HearingProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				40F83F242C91862700314F61 /* HearingProfilesViewController.swift */,
+				40F83F262C91863800314F61 /* HearingProfilesTableViewCell.swift */,
+			);
+			path = HearingProfiles;
+			sourceTree = "<group>";
+		};
+		40F83F282C91DBE600314F61 /* LearningCenter */ = {
+			isa = PBXGroup;
+			children = (
+				40F83F292C91DC2300314F61 /* LearningCenterViewController.swift */,
+				40F83F2B2C91DC3300314F61 /* LearningCenterTableViewCell.swift */,
+			);
+			path = LearningCenter;
+			sourceTree = "<group>";
+		};
+		A12078DAECCF21B97F03BCB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50E1DC5E2F1A7903935816A3 /* Pods-SymmetryHear.debug.xcconfig */,
+				9902A3A0A8901883A27AB2E7 /* Pods-SymmetryHear.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8E10B14DAA1AE6570DBD62D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149A71B3E34B28B5AAFBD171 /* Pods_SymmetryHear.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409EFE442C88408000F82608 /* SymmetryHear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409EFE592C88408300F82608 /* Build configuration list for PBXNativeTarget "SymmetryHear" */;
+			buildPhases = (
+				672C452AA6F8E3DD2C9D246B /* [CP] Check Pods Manifest.lock */,
+				409EFE412C88408000F82608 /* Sources */,
+				409EFE422C88408000F82608 /* Frameworks */,
+				409EFE432C88408000F82608 /* Resources */,
+				1D09EE246DDE9CD1D3256350 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SymmetryHear;
+			productName = SymmetryHear;
+			productReference = 409EFE452C88408000F82608 /* SymmetryHear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409EFE3D2C88408000F82608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					409EFE442C88408000F82608 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 409EFE402C88408000F82608 /* Build configuration list for PBXProject "SymmetryHear" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409EFE3C2C88408000F82608;
+			productRefGroup = 409EFE462C88408000F82608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409EFE442C88408000F82608 /* SymmetryHear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409EFE432C88408000F82608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9ADC02C90798B0026B562 /* frequency18.mp3 in Resources */,
+				40C9ADA52C9079640026B562 /* frequency2.mp3 in Resources */,
+				40C9ADA72C9079640026B562 /* frequency5.mp3 in Resources */,
+				40C9ADB22C9079790026B562 /* frequency8.mp3 in Resources */,
+				40C9ADBC2C90798B0026B562 /* frequency13.mp3 in Resources */,
+				409EFE522C88408300F82608 /* Assets.xcassets in Resources */,
+				40C9ADA42C9079640026B562 /* frequency3.mp3 in Resources */,
+				40C9ADB42C9079790026B562 /* frequency11.mp3 in Resources */,
+				40C9ADC52C9079940026B562 /* frequency20.mp3 in Resources */,
+				40C9ADB12C9079790026B562 /* frequency9.mp3 in Resources */,
+				40C9ADB32C9079790026B562 /* frequency7.mp3 in Resources */,
+				40C9ADBF2C90798B0026B562 /* frequency17.mp3 in Resources */,
+				40C9ADC42C9079940026B562 /* frequency19.mp3 in Resources */,
+				40C9ADA82C9079640026B562 /* frequency6.mp3 in Resources */,
+				40C9ADA62C9079640026B562 /* frequency1.mp3 in Resources */,
+				409EFE552C88408300F82608 /* Base in Resources */,
+				40C9ADB52C9079790026B562 /* frequency12.mp3 in Resources */,
+				40C9ADA92C9079640026B562 /* frequnecy4.mp3 in Resources */,
+				40C9ADB02C9079790026B562 /* frequency10.mp3 in Resources */,
+				40C9ADC12C90798B0026B562 /* frequency14.mp3 in Resources */,
+				40C9ADBD2C90798B0026B562 /* frequency16.mp3 in Resources */,
+				409EFE502C88408000F82608 /* Base in Resources */,
+				40C9ADBE2C90798B0026B562 /* frequency15.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D09EE246DDE9CD1D3256350 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SymmetryHear/Pods-SymmetryHear-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SymmetryHear/Pods-SymmetryHear-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SymmetryHear/Pods-SymmetryHear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		672C452AA6F8E3DD2C9D246B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SymmetryHear-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409EFE412C88408000F82608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409EFE6C2C8868AA00F82608 /* HistoryTableViewCell.swift in Sources */,
+				40C264E62C8F0A2B00CABCE0 /* AboutUSViewController.swift in Sources */,
+				40F83F272C91863800314F61 /* HearingProfilesTableViewCell.swift in Sources */,
+				40BAA0422C92E9950009BB79 /* ExportOptionsViewController.swift in Sources */,
+				409EFE6F2C8876CE00F82608 /* FrequencyViewController.swift in Sources */,
+				409EFE612C88494B00F82608 /* HomeViewController.swift in Sources */,
+				409EFE4D2C88408000F82608 /* ViewController.swift in Sources */,
+				40F83F2A2C91DC2300314F61 /* LearningCenterViewController.swift in Sources */,
+				409EFE492C88408000F82608 /* AppDelegate.swift in Sources */,
+				409EFE4B2C88408000F82608 /* SceneDelegate.swift in Sources */,
+				40C264E82C8F0A3300CABCE0 /* FeedbackViewController.swift in Sources */,
+				40F83F252C91862700314F61 /* HearingProfilesViewController.swift in Sources */,
+				409EFE722C88802E00F82608 /* SoundGenerator.swift in Sources */,
+				40C2649D2C8ED52600CABCE0 /* HearingExercisesViewController.swift in Sources */,
+				40C264E22C8F067000CABCE0 /* SettingsViewController.swift in Sources */,
+				40C75CD72C931DA900406983 /* DetailProfileViewController.swift in Sources */,
+				409EFE5E2C88466C00F82608 /* Helper.swift in Sources */,
+				40C9ADCB2C9087C30026B562 /* iOSDropDown.swift in Sources */,
+				40F83F2C2C91DC3300314F61 /* LearningCenterTableViewCell.swift in Sources */,
+				40C264E42C8F068800CABCE0 /* SettingsTableViewCell.swift in Sources */,
+				409EFE642C88496D00F82608 /* HomeCollectionViewCell.swift in Sources */,
+				40C9ADC82C907B240026B562 /* CreateProfileViewController.swift in Sources */,
+				409EFE672C8863AA00F82608 /* WelcomeViewController.swift in Sources */,
+				40C264C12C8EE25F00CABCE0 /* SoundsSampleTableViewCell.swift in Sources */,
+				409EFE6A2C88689600F82608 /* HistoryViewController.swift in Sources */,
+				40C264BF2C8EE23E00CABCE0 /* SoundsSampleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		409EFE4E2C88408000F82608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409EFE4F2C88408000F82608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409EFE532C88408300F82608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409EFE542C88408300F82608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409EFE572C88408300F82608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		409EFE582C88408300F82608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409EFE5A2C88408300F82608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E1DC5E2F1A7903935816A3 /* Pods-SymmetryHear.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SymmetryHear/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sm.SymmetryHear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		409EFE5B2C88408300F82608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9902A3A0A8901883A27AB2E7 /* Pods-SymmetryHear.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SymmetryHear/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sm.SymmetryHear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409EFE402C88408000F82608 /* Build configuration list for PBXProject "SymmetryHear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409EFE572C88408300F82608 /* Debug */,
+				409EFE582C88408300F82608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409EFE592C88408300F82608 /* Build configuration list for PBXNativeTarget "SymmetryHear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409EFE5A2C88408300F82608 /* Debug */,
+				409EFE5B2C88408300F82608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409EFE3D2C88408000F82608 /* Project object */;
+}
